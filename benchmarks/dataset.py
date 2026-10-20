@@ -220,6 +220,9 @@ DATASET_CONFIGS: dict[str, DatasetConfig] = {
         builder_name="EMNIST",
         builder_kwargs={"config_name": "mnist"},
     ),
+    # Brain MRI. Brain Tumor MRI stores many scans as RGB, but nearly all are gray in content.
+    "alzheimermri": _gray("alzheimermri", "Alzheimer MRI", 4, mean=[0.2787], std=[0.3263]),
+    "braintumormri": _gray("braintumormri", "Brain Tumor MRI", 4, mean=[0.1839], std=[0.2003]),
     "fashionmnist": _gray("fashionmnist", "FashionMNIST", 10, mean=[0.2860], std=[0.3530]),
     "kmnist": _gray("kmnist", "KMNIST", 10, mean=[0.1918], std=[0.3483]),
     "pneumoniamnist": _gray(

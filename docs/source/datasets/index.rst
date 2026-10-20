@@ -71,6 +71,8 @@ Available Datasets
    face_pointing
    rock_paper_scissor
    linnaeus5
+   brain_tumor_mri
+   alzheimer_mri
 
 .. toctree::
    :maxdepth: 1

@@ -28,6 +28,13 @@ params:
   notmnist:
     batch_size: 128
     max_epochs: 200
+  # Brain MRI (about 5k train images each)
+  alzheimermri:
+    batch_size: 128
+    max_epochs: 50
+  braintumormri:
+    batch_size: 128
+    max_epochs: 50
   pneumoniamnist:
     batch_size: 128
     max_epochs: 200

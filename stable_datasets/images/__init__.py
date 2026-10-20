@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
+from .alzheimer_mri import AlzheimerMRI
 from .arabic_characters import ArabicCharacters
 from .arabic_digits import ArabicDigits
 from .awa2 import AWA2
 from .beans import Beans
+from .brain_tumor_mri import BrainTumorMRI
 from .cars3d import Cars3D
 from .cars196 import Cars196
 from .cifar10 import CIFAR10
@@ -48,10 +50,12 @@ from .tiny_imagenet_c import TinyImagenetC
 
 
 __all__ = [
+    "AlzheimerMRI",
     "ArabicCharacters",
     "ArabicDigits",
     "AWA2",
     "Beans",
+    "BrainTumorMRI",
     "Cars196",
     "Cars3D",
     "CIFAR10",
