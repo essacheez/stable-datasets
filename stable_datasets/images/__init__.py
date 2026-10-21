@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from .alzheimer_mri import AlzheimerMRI
 from .arabic_characters import ArabicCharacters
 from .arabic_digits import ArabicDigits
 from .awa2 import AWA2
@@ -34,6 +33,7 @@ from .imagenet_1k import ImageNet1K
 from .imagenet_10 import Imagenette
 from .imagenet_100 import ImageNet100
 from .k_mnist import KMNIST
+from .lc25000 import LC25000
 from .linnaeus5 import Linnaeus5
 from .med_mnist import MedMNIST
 from .not_mnist import NotMNIST
@@ -50,7 +50,6 @@ from .tiny_imagenet_c import TinyImagenetC
 
 
 __all__ = [
-    "AlzheimerMRI",
     "ArabicCharacters",
     "ArabicDigits",
     "AWA2",
@@ -82,6 +81,7 @@ __all__ = [
     "ImageNet100",
     "Imagenette",
     "KMNIST",
+    "LC25000",
     "Linnaeus5",
     "MedMNIST",
     "NotMNIST",

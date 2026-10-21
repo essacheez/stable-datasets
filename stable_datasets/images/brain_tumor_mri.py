@@ -22,8 +22,7 @@ class BrainTumorMRI(BaseDatasetBuilder):
 
     The training set has 1,400 images per class and the testing set has 400 per class.
     The images come in many different sizes and are a mix of grayscale and color, and
-    they are kept exactly as published. Some images appear more than once, including
-    114 testing images that are also in the training set.
+    they are kept exactly as published.
     """
 
     VERSION = Version("1.0.0")
